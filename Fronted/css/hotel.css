@@ -1,0 +1,140 @@
+/* Header background CSS */
+#header {
+    width: 100%;
+    height: 60vh;
+    /* background-image: url("./Images/package-bg.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #container {
+    border: 10px solid black;
+    border-radius: 20px;
+    width: 85%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 20px;
+    background-color: #349390;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+    /* Set the background image separately */
+    background-image: url("https://wallpapercave.com/wp/wp3598837.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  #container>div {
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+  }
+  #container>div>button{
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+
+  .imageClass{
+    height: 160px;
+    width: 330px;
+    border-radius: 20px;
+  }
+
+  .bookNow {
+    display: inline-block;
+    width: 180px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #32CD32;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .bookNow:hover {
+    /* background-color: #58b9a5;  */
+    color: #007bff;
+    background-color: #c1ff8a;
+  }
+
+  /* dropdown */
+  /* Style for the dropdown container */
+.dropdown {
+  display: flex;
+  width: 400px;
+  /* margin: 20px; */
+  /* border: 2px solid black; */
+  margin-left: 120px;
+}
+
+/* Style for the label */
+.dropdown label {
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  line-height: 2;
+  margin-bottom: 5px;
+}
+
+/* Style for the select dropdown */
+.dropdown select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none; /* Remove default appearance */
+  width: 100%;
+}
+
+/* Style for the option elements */
+.dropdown option {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style for the dropdown arrow */
+.dropdown select::after {
+  content: '\25BC'; /* Unicode down arrow character */
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+/* Style when the dropdown is active */
+.dropdown select:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+
+#searchButton {
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: #fff; /* Set the background color */
+  cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+/* Optional: Style the icon inside the button */
+#searchButton i {
+  font-size: 20px;
+  color: #333; /* Set the icon color */
+}

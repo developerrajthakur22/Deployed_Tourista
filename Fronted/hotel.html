@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Touristo: Share and Discover Travel Stories, Community, Tourism Guides,
+        Hotels & Holidays
+    </title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/package.css">
+    <link rel="stylesheet" href="./css/hotel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+</head>
+
+<body>
+    <!-----------------------Sign In Form--------------------------->
+    <div class="overlay"></div>
+
+    <div class="sign-up-form sign-in">
+        <form action="">
+            <div>
+                <button> <i class="fa-brands fa-facebook-f"></i>&nbsp;&nbsp;Log in with Facebook</button>
+                <button> <i class="fa-brands fa-google-plus"></i>&nbsp;&nbsp;Log in with Google</button>
+                <p>OR</p>
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="PASSWORD">
+                <span><input type="checkbox" name="" id=""/>&nbsp;Remember me</span>
+                <button>Login</button>
+                <p>Don't have an account?<span id="sign-up-btn">&nbsp;Sign Up</span></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="sign-up-form sign-up">
+        <form action="">
+            <div>
+                <button> <i class="fa-brands fa-facebook-f"></i>&nbsp;&nbsp;Log in with Facebook</button>
+                <button> <i class="fa-brands fa-google-plus"></i>&nbsp;&nbsp;Log in with Google</button>
+                <p>OR</p>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="PASSWORD">
+                <button>SIGN UP</button>
+                <a href="#">Don't have an account? Sign Up</a>
+            </div>
+        </form>
+    </div>
+
+    <!----------------Header Section Start-------------------->
+    <div id="header">
+        <div class="navbar" id="navbar">
+            <img src="./Images/logo.png" alt="tripto logo" id="logo" />
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="./index.html">
+                            Home <i class="fa-solid fa-house"></i>
+                        </a>
+                    </li>
+
+                    <li><a href="./hotel.html">Hotels</a></li>
+                    <li><a href="./bus.html">Buses</a></li>
+                    <li><a href="./package.html">Packages</a></li>
+                    <li>
+                        <a href="#">
+                            Cart <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <ul>
+                            <li><a href="Bookings.html">Your Bookings</a></li>
+                            <li><a href="Tickets.html">Your Tickets</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" id="sign-in">Sign in</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-search">
+            <h1>India's Largest Community of Travellers</h1>
+            <span><input type="search" placeholder="Search for itineraries, destinations, hotels or activities" id="searchInput"/>
+                <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button></span>
+        </div>
+    </div>
+
+    <!-- hotels  -->
+    
+    <h1 style="text-align: center; margin-top: 20px;">Book your Hotels:</h1>
+
+    <!-- dropdown -->
+    <div class="dropdown">
+        <label for="cities">Select a City:</label>
+        <select id="cities" name="cities">
+          <option value="all" >All</option>
+          <option value="Indore">Indore</option>
+          <option value="Pune">Pune</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Bangalore">Bangalore</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Chennai">Chennai</option>
+        </select>
+      </div>
+      <!-- dropdown end -->
+      
+    <div id="container">
+
+    </div>
+    <!-- hotels ended -->
+    <div id="footer">
+        <div>
+            <img src="./Images/logo.png" alt="" style="width: 250px;">
+            <h3>India's Largest Travel Community</h3>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <img src="./Images/android-app.svg" alt="">
+        </div>
+        <div>
+            <h3>About Tourista</h3>
+            <p>how it works</p>
+            <p>FAQ'S</p>
+            <p>Privacy Policy</p>
+            <p>Terms Condition</p>
+            <p>Careers</p>
+            <p>Contact Us</p>
+        </div>
+        <div>
+            <h3>Products</h3>
+            <p>Tour Packages</p>
+            <p>Tour Packages</p>
+            <p>Tour Packages</p>
+            <p>Tour Packages</p>
+            <p>Tour Packages</p>
+            <p>Tour Packages</p>
+            <p>Tour Packages</p>
+            <p>Tour Packages</p>
+        </div>
+        <div>
+            <h3>Important Travel Links</h3>
+            <p>Goa Tourism</p>
+            <p>Goa Tourism</p>
+            <p>Goa Tourism</p>
+            <p>Goa Tourism</p>
+            <p>Goa Tourism</p>
+            <p>Goa Tourism</p>
+            <p>Goa Tourism</p>
+            <p>Goa Tourism</p>
+        </div>
+        <div>
+            <h3>Partner Programs</h3>
+            <p>Buy Trvels Leads</p>
+            <p>Buy Trvels Leads</p>
+            <p>Buy Trvels Leads</p>
+            <p>Buy Trvels Leads</p>
+            <p>Buy Trvels Leads</p>
+        </div>
+    </div>
+    <span><p>© All rights reserved.</p></span>
+    
+</body>
+<script src="./script/hotel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+
+</html>

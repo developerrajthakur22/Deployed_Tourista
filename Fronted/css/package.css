@@ -1,0 +1,124 @@
+/* Header background CSS */
+#header {
+  width: 100%;
+  height: 60vh;
+  /* background-image: url("./Images/package-bg.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#tour-middle {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 40px;
+}
+
+#tour-middle>p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.package-image {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.package-image img {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.package-image img:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.tripto-passage {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.tripto-passage h1 {
+  margin-bottom: 20px;
+}
+
+.tripto-passage p {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.tripto-passage span {
+  font-weight: bolder;
+}
+
+#package_container {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 90%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  padding: 20px;
+  background-color: #349390;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  /* Set the background image separately */
+  /* background-image: url("https://png.pngtree.com/back_origin_pic/03/88/06/20451a964fa12319a324f2e99aac9632.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; */
+}
+
+#package_container>div {
+  border: 10px solid black;
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+#package_container>div>button{
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.packageImage{
+   height: 160px;
+   width: 330px;
+   border-radius: 20px;
+}
+
+
+.bookNow {
+  display: inline-block;
+  width: 180px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #32CD32;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.bookNow:hover {
+  /* background-color: #58b9a5;  */
+  color: #007bff;
+  background-color: #c1ff8a;
+}
